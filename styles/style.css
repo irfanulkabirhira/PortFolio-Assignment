@@ -1,82 +1,143 @@
-.text-secodary{
-    color: rgb(13, 19, 33);
+.text-color-primary {
+  color: rgb(13, 19, 33);
 }
 
-.nav-bar{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Vanila CSS : 10/12 = 83.333% */
-    width: 83.333%;
-    margin: 0 auto;
+.text-color-secondary {
+  color: rgba(13, 19, 33, 0.7);
 }
 
-.nav-bar-button{
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    color: rgb(13, 19, 33);
-    font-size: 20px;
-    font-weight: 600px;
-    font-family: 'Times New Roman', Times, serif;
+.nav-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Vanila CSS : 10/12 = 83.333% */
+  width: 83.333%;
+  margin: 0 auto;
 }
 
+.nav-bar-button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
 
-.Banner-section{
-    display: flex;
+.Banner-section {
+  /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 652px;
-    /* margin: 0 auto; */
-    background-image: url('../image/Banner-background.jpg' );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+    justify-content: center; */
+  height: 652px;
+  /* margin: 0 auto; */
+  background-image: url("../image/Banner-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.Banner-decoration{
-    height:581px;
+.Banner-decoration {
+  /* height:581px;
     left: 221px;
     right: 221px;
     top: 157px;
-    bottom: 4507px;
-    border: 10 px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    bottom: 4507px; */
+
+  /* border: 10 px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.banner-button{
-    width: 196px;
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    background-color: black;
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 20px;
+.Banner-text {
+  /* border: 2px solid red; */
+  width: 750px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
 }
 
-.banner-heading{
-    color: rgb(13, 19, 33);
-    font-size: 48px;
-    font-weight: 800;
+.banner-heading {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
 }
 
-.Banner-text{
-    width: 750px;
-    margin-top: -25px;
-    margin-bottom: 25px;
-    /* border: 2px solid red; */
-    padding: 10px;
-    text-align: center;
+.banner-button {
+  width: 196px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
+.main-section-part-1 {
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 97px;
+  padding-right: 97px;
+  /* Vanila CSS : 10/12 = 83.333% */
+  width: 83.333%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  /* padding:97px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+
+.box-part {
+    background-color: rgba(250, 235, 215, 0.308);
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 70%;
+  height: 250px;
+  /* margin-left: 97px;
+    margin-right: 97px; */
+  padding: 48px;
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.box-part-bacca {
+  width: 400px;
+  /* border: 2px solid red; */
+  margin-left: 70px;
+  padding: 30px;
+}
+
+.box-part-bacca-button {
+  margin-top: 10px;
+  width: 150px;
+  height: 47px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(13, 19, 33, 0.7);
+}
+
+.image-dev {
+  margin-top: -40px;
+  width: 259.56px;
+  height: 217.01px;
+  /* border: 2px solid red; */
+  padding: 40px;
+}
