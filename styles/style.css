@@ -1,0 +1,21 @@
+.nav-bar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Vanila CSS : 10/12 = 83.333% */
+    width: 83.333%;
+    margin: 0 auto;
+}
+
+.nav-bar-button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
