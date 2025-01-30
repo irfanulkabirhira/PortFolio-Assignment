@@ -4,6 +4,12 @@
 
 .text-color-secondary {
   color: rgba(13, 19, 33, 0.7);
+
+}
+.Text-part-Common{
+  text-align: center;
+  width: 852px;
+
 }
 
 .nav-bar {
@@ -109,6 +115,7 @@
   /* margin-left: 97px;
     margin-right: 97px; */
   padding: 48px;
+  border-radius: 20px;
   /* border: 2px solid red; */
   display: flex;
 }
@@ -201,6 +208,7 @@
 }
 
 .main-section-part-4{
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,6 +235,7 @@
 
 .box-part-of-main-section-part-4-images{
   /* border: 2px solid red; */
+  width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -250,3 +259,4 @@
 
 
 }
+
