@@ -334,3 +334,29 @@
   border: none;
 
 }
+
+
+.footer-part{
+  /* border: 2px solid red; */
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(0, 255, 115, 0.096);
+
+}
+
+.social-side{
+  /* border: 2px solid red; */
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(221, 255, 0, 0.089);
+
+
+}
