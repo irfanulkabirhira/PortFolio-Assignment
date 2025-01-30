@@ -199,3 +199,54 @@
 
 
 }
+
+.main-section-part-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.All-are-in-this-div-for-part-4{
+  width: 83%;
+  padding: 30px;
+  /* border: 2px solid red; */
+
+}
+
+
+.box-part-of-main-section-part-4{
+  display: flex;
+  /* border: 2px solid red; */
+  margin-bottom: 30px;
+  border-radius: 40px;
+  background-color: rgba(250, 235, 215, 0.228);
+}
+
+.box-part-of-main-section-part-4-images{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  /* background-color: rgba(0, 255, 255, 0.098); */
+  padding: 20px;
+  padding: 10px;
+}
+
+.box-part-of-main-section-part-4-texts{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 30px;
+  /* background-color: rgba(0, 255, 255, 0.098); */
+
+  width: 50%;
+
+
+}
