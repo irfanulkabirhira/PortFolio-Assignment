@@ -47,13 +47,6 @@
 }
 
 .Banner-decoration {
-  /* height:581px;
-    left: 221px;
-    right: 221px;
-    top: 157px;
-    bottom: 4507px; */
-
-  /* border: 10 px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +56,7 @@
 .Banner-text {
   /* border: 2px solid red; */
   width: 750px;
-  margin-top: -25px;
+  /* margin-top: -25px; */
   margin-bottom: 25px;
   padding: 10px;
   text-align: center;
@@ -76,7 +69,7 @@
 }
 
 .banner-button {
-  width: 196px;
+  /* width: 196px; */
   padding: 20px;
   text-align: center;
   font-weight: bold;
@@ -84,12 +77,12 @@
   border: none;
   background-color: black;
   color: white;
-  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   font-size: 20px;
 }
 
 .main-section-part-1 {
+  margin-top: 20px;
   padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 97px;
@@ -108,7 +101,6 @@
 
 .box-part {
   background-color: rgba(250, 235, 215, 0.308);
-  justify-content: space-between;
   margin-top: 25px;
   width: 70%;
   height: 250px;
@@ -118,6 +110,7 @@
   border-radius: 20px;
   /* border: 2px solid red; */
   display: flex;
+  justify-content: space-between;
 }
 
 .box-part-bacca {
@@ -360,3 +353,51 @@
 
 
 }
+
+
+@media screen and (max-width: 576px) {
+  .nav-bar{
+    width: 100%;
+  }
+  .Banner-decoration, .Banner-section{
+    width: 100%;
+  }
+
+  .Banner-text{
+    width: 100%;
+  }
+
+  .main-section-part-1{
+    padding: 0px;
+  }
+
+  .con-div{
+    width: 100%;
+  }
+
+  .box-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Text-part-Common{
+    width: 100%;
+    display: flex;
+    /* margin-left: -150px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-part-bacca{
+    width: 100%;
+  }
+
+  .image-dev{
+    width: 100%;
+
+
+  }
+
+  }
+
+
